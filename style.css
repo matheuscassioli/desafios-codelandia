@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .cabecalho {
+  width: 100%;
+  background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .cabecalho .textos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+body .cabecalho .textos .cabecalho-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .cabecalho .textos .cabecalho-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .cabecalho .pesquisa {
+  width: 75%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+body .cabecalho .pesquisa img {
+  position: absolute;
+  margin-left: 10px;
+  width: 20px;
+}
+
+body .cabecalho .pesquisa span {
+  margin-left: 50px;
+  color: rgba(253, 252, 252, 0.6);
+  font-size: 12px;
+}
+
+body .principal {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 20px;
+  margin: 16px 0px 16px 0px;
+}
+
+body .principal .datas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  color: #4f4f4f;
+}
+
+body .principal .manchetes {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+body .principal .windows {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 35px;
+}
+
+body .principal .tim-berners,
+body .principal .firefox,
+body .principal .mcafee {
+  width: 75%;
+  line-height: 35px;
+}
+
+body .noticia {
+  font-family: 'Lexend Deca';
+  color: #6d6a6a;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.heart-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heart-position span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heart-position span img:hover {
+  background-color: #cdcccc;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .textos,
+  .windows,
+  .tim-berners,
+  .firefox,
+  .mcafee,
+  .pesquisa {
+    width: 90% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
